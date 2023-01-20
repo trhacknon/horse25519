@@ -368,7 +368,7 @@ main(int argc, char *argv[])
     return -1;
   }
 
-  fprintf(stdout, "Searching for prefix: [%s] (%zd bits)\n", argv[0],
+  fprintf(stdout, "by horse25519 modded by trhacknon,Searching for prefix: [%s] (%zd bits)\n", argv[0],
           prefix->nbits);
   fprintf(stdout, "Threads: %u\n", ncores);
   fprintf(stdout, "\n");
