@@ -11,6 +11,15 @@ It is slower than searching for keys via Scallion as it only runs on the CPU.
 Porting the relevant math to run on a GPU is left as an exercise for the
 student.
 
+##installation
+```
+make
+```
+##usage
+```
+horse25519 -n 20 trkn
+```
+
 ### Notes
 
 The Ed25519 implementation is ed25519/ref10 from SUPERCOP (20140924).  The
