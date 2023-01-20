@@ -54,7 +54,7 @@ OBJS = $(SRCS:.c=.o)
 all: $(OBJS) horse25519
 
 horse25519: $(OBJS)
-	$(CC) $(OBJS) $(LDFLAGS) -o horse25519
+	$(CC) $(OBJS) $(LDFLAGS) -o /bin/horse25519
 
 clean:
 	rm -f $(OBJS) horse25519
